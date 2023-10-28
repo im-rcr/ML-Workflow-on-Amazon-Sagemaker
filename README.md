@@ -1,4 +1,4 @@
-# ML-Workflow-on-Amazon-Sagemaker
+# Machine Learning Workflow
  Image Classifiers are used in the field of computer vision to identify the content of an image and it is used across a broad variety of industries, from advanced technologies like autonomous vehicles and augmented reality, to eCommerce platforms, and even in diagnostic medicine.
 
 In this project, we'll be building an image classification model that can automatically detect which kind of vehicle delivery drivers have, in order to route them to the correct loading bay and orders. Assigning delivery professionals who have a bicycle to nearby orders and giving motorcyclists orders that are farther can help Scones Unlimited optimize their operations.
@@ -9,15 +9,13 @@ In this project, we’ll use AWS Sagemaker to build an image classification mode
 
 
 
-# ML Workflow for Scones Unlimited on Amazon SageMaker
+## ML Workflow for Scones Unlimited on Amazon SageMaker
 
-![Scones Unlimited Logo](scones_unlimited_logo.png)
-
-## Project Overview
+### Project Overview
 
 This project is an end-to-end machine learning (ML) workflow developed for Scones Unlimited, a fictional bakery that wants to enhance its business operations. The objective is to leverage Amazon SageMaker to create, deploy, and manage ML models that optimize inventory management and customer satisfaction.
 
-## Features
+### Features
 
 - **Data Preprocessing**: Cleaning and transforming bakery data to make it suitable for ML modeling.
 - **Model Development**: Creating ML models to predict demand, optimize inventory, and improve supply chain management.
@@ -25,14 +23,14 @@ This project is an end-to-end machine learning (ML) workflow developed for Scone
 - **Monitoring & Auto-Scaling**: Implementing monitoring and auto-scaling mechanisms to ensure model performance and cost-efficiency.
 - **Data Visualization**: Generating insightful data visualizations for stakeholders.
 
-## Prerequisites
+### Prerequisites
 
 - [Amazon Web Services (AWS) Account](https://aws.amazon.com/)
 - [Amazon SageMaker](https://aws.amazon.com/sagemaker/) access
 - Python 3.7+
 - Jupyter Notebook (optional but recommended)
 
-## Setup
+### Setup
 
 1. **Clone the Repository**:
 
@@ -65,13 +63,13 @@ This project is an end-to-end machine learning (ML) workflow developed for Scone
    - Utilize SageMaker to train and deploy models.
    - Refer to SageMaker documentation for detailed instructions.
 
-## Usage
+### Usage
 
 - The project includes Jupyter notebooks to guide you through data preprocessing and model development.
 - Follow the instructions provided in the notebooks to create, train, and deploy ML models using Amazon SageMaker.
 - Monitor model performance and adjust auto-scaling settings as needed.
 
-## Project Structure
+### Project Structure
 
 ```
 scones-unlimited-ml-workflow/
@@ -84,7 +82,7 @@ scones-unlimited-ml-workflow/
 ├── LICENSE            # Project license
 ```
 
-## Contributing
+### Contributing
 
 Contributions are welcome! If you'd like to enhance the project, open issues, or submit pull requests, please follow these guidelines:
 
@@ -94,7 +92,7 @@ Contributions are welcome! If you'd like to enhance the project, open issues, or
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request.
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 ```
